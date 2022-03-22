@@ -6,15 +6,19 @@ console.log(
  const firstName = "Zachary";
  let lastName = "Webb";
  var age = 27;
+
 // Exercise 2
 let templateFullName = `${firstName} ${lastName}`;
 let fullName = firstName + " " + lastName;
+
 console.log(fullName)
 console.log(templateFullName)
+
 // Exercise 3
 let myStory;
 let home ="Circleville"
 let pasttime ="reading"
+
 myStory = `My name is ${fullName}. I reside in ${home}. I enjoy ${pasttime}`
 
 console.log(myStory)
