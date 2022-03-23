@@ -16,9 +16,17 @@ console.log(templateFullName)
 
 // Exercise 3
 let myStory;
+let myStoryTwo;
 let home ="Circleville"
 let pasttime ="reading"
+const myWife = "Amber Webb"
+var aMonth = 5
+var aDay = 21
+var aYear = 21
+
+myStoryTwo = `My name is ${fullName}. I live in ${home}. I enjoy ${pasttime}, and my wife, ${myWife}. We got married ${aMonth}/${aDay}/${aYear}.`
 
 myStory = `My name is ${fullName}. I reside in ${home}. I enjoy ${pasttime}`
 
 console.log(myStory)
+console.log(myStoryTwo)
